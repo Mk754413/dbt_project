@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Staging model for orders data"
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('stg_customers')
+              field: customer_id
+
+      - name: order_amount
+        tests:
+          - not_null
