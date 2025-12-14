@@ -1,0 +1,9 @@
+MADAN_123:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: ACCOUNTADMIN
+      warehouse: COMPUTE_WH
+      database: DBT_TRIAL
+      schema: DBT_SF_EY
