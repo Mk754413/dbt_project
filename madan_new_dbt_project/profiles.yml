@@ -5,5 +5,5 @@ madan_new_dbt_project:
       type: snowflake
       role: ACCOUNTADMIN
       warehouse: COMPUTE_WH
-      database: USER$MK754413
-      schema: PUBLIC
+      database: KPMG
+      schema: RAW_DATA

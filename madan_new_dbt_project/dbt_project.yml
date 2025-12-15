@@ -17,3 +17,10 @@ snapshot-paths:
 models:
   madan_new_dbt_project:
     +materialized: view
+    staging:
+      +schema: staging
+    marts:
+      +schema: marts
+    hist:
+      +schema: history
+

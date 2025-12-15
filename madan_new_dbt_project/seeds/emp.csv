@@ -1,0 +1,8 @@
+emp_id,emp_name,dept_name,email,phone_number,job_title,salary,hire_date,manager_id,employment_status,created_at,updated_at
+101,Riya Sharma,IT,riya@company.com,9876543210,Data Engineer,85000,2021-06-15,,ACTIVE,2021-06-15 09:30:00,
+102,Aman Verma,HR,aman@company.com,9876543211,HR Executive,400000,2020-03-20,201,ACTIVE,2020-03-20 10:00:00,
+103,Neha Singh,Finance,neha@company.com,9876543212,Financial Analyst,75000,2022-01-10,202,ACTIVE,2022-01-10 11:15:00,
+104,Rahul Mehta,IT,rahul@company.com,9876543213,Backend Developer,90000,2019-09-05,101,ACTIVE,2019-09-05 09:00:00,
+105,Pooja Patel,Sales,pooja@company.com,9876543214,Sales Manager,95500,2018-11-12,,INACTIVE,2018-11-12 08:45:00,
+106,Arjun Rao,IT,arjun@company.com,9876543215,DevOps Engineer,88000,2021-08-01,101,ACTIVE,2021-08-01 09:20:00,
+107,Kavya Nair,Finance,kavya@company.com,9876543216,Accountant,65000,2020-05-18,202,ACTIVE,2020-05-18 10:10:00

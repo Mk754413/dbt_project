@@ -1,0 +1,19 @@
+version : 2
+
+sources:
+  - name : sales
+    database : KPMG
+    schema : raw_data
+    tables :
+    - name : dept 
+      columns :
+        - name : dept_id
+          tests:
+          - unique
+          - not_null
+
+          
+            
+      
+    
+    
